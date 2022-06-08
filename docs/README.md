@@ -31,17 +31,16 @@ This is a sample image, to show how to add images to your page. To learn more op
 ---
 
 ## Introduction
-
- description of the real world problem and solution, impact
-
+There are lots of food related applications which keep track of intake of food, and the nutriitions. But, none of the applications that are available in the current market don't provide proper details related to Sri Lankan food styles. It is harder for people in Sri Lanka in order to keep track of their daily intake of food.
+This application mainly focusses on overcoming that problem, providing details related to Sri Lankan food styles in their native languages where they can take photos of the food and keep track of nutrition intake.
 ## Other Sub Topics
 
 .....
 
 ## Links
 
-- [Project Repository](https://github.com/cepdnaclk/{{ page.repository-name }}){:target="_blank"}
-- [Project Page](https://cepdnaclk.github.io/{{ page.repository-name}}){:target="_blank"}
+- [Project Repository](https://github.com/cepdnaclk/SnaT-meal-tracking-app){:target="_blank"}
+- [Project Page](https://github.com/cepdnaclk/e18-co227-SnaT-Meal-Tracking-App-Group-A){:target="_blank"}
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
 
