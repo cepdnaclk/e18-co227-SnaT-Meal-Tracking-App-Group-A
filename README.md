@@ -1,5 +1,5 @@
 ___
-# DELETE THIS INSTRUCTIONS AND ADD A SHORT INTRODUCTION ABOUT YOUR PROJECT
+# This is the project called the "SnaT" - Meal Tracking app, and it is the first food related application in Sri Lanka that is suitable Sri Lankan food style, and its native languages.
 ___
 
 ## Please refer the instructions in below URL:
