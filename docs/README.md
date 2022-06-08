@@ -39,8 +39,8 @@ This application mainly focusses on overcoming that problem, providing details r
 
 ## Links
 
-- [Project Repository](https://github.com/cepdnaclk/SnaT-meal-tracking-app){:target="_blank"}
-- [Project Page](https://github.com/cepdnaclk/e18-co227-SnaT-Meal-Tracking-App-Group-A){:target="_blank"}
+- [Project Repository](https://github.com/cepdnaclk/SnaT-meal-tracking-app)
+- [Project Page](https://github.com/cepdnaclk/e18-co227-SnaT-Meal-Tracking-App-Group-A)
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
 
