@@ -4,7 +4,7 @@ permalink: index.html
 
 # Please update this with your repository name and title
 repository-name: e18-co227-SnaT-Meal-Tracking-App-Group-A
-title:
+title: SnaT Meal Tracking App
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
