@@ -1,3 +1,5 @@
+
+
 ---
 layout: home
 permalink: index.html
@@ -14,16 +16,17 @@ title: SnaT Meal Tracking App
 ---
 
 ## Team
--  E/18/013, Ravindran Abilash, [e18013@eng.pdn.ac.lk](mailto:name@email.com)
--  E/18/128,Raveendran Hariharan , [e18128@eng.pdn.ac.lk](mailto:name@email.com)
--  E/18/366, Yogashwaran Thulasiyan, [e18366@eng.pdn.ac.lk](mailto:name@email.com)
+-  E/18/013,Abilash R., [e18013@eng.pdn.ac.lk](mailto:e18013@eng.pdn.ac.lk)
+-  E/18/128,Hariharan R., [e18128@eng.pdn.ac.lk](mailto:e18128@eng.pdn.ac.lk)
+-  E/18/366,Thulasiyan Y., [e18366@eng.pdn.ac.lk](mailto:e18366@eng.pdn.ac.lk)
 
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Technology Stack](#technology-stack)
 3. [Solution Architecture](#solution-architecture)
 4. [Features](#features)
-5. [Links](#links)
+5. [Work Plan](#Work-plan)
+6. [Links](#links)
 
 ---
 
@@ -39,7 +42,7 @@ title: SnaT Meal Tracking App
 
 
 <p align="center">
-  <img width="500" src="https://aaps.ca/wp-content/uploads/Aug-6-sport-and-nutrition-training.jpg" alt="Taking picture of food">
+  <img width="500" src="./images/into.png" alt="Taking picture of food">
 </p>
 
 
@@ -71,7 +74,7 @@ These technologies were used to create the application.
 
 
 <p align="center">
-<img src="./images/technology_stack.png" width="700" height="430"></p>
+<img src="./images/technology.png" width="700" height="430"></p>
 
 
 
@@ -82,13 +85,7 @@ These technologies were used to create the application.
 # Solution Architecture
 
 <p align="center">
-  <img width="900" src="https://user-images.githubusercontent.com/73680106/176661576-ca4a83ce-e40a-40f3-ac42-a2d733c445e0.png" alt="drawing">
-</p>
-
-
-<p align="center">
-  <img width="700" src="https://user-images.githubusercontent.com/73664068/176867110-5b655532-0b7f-4265-8002-f80434fbffec.PNG" alt="storage">
-</p>
+<img src="./images/solution_archi.png" width="700" height="430"></p>
 
 
 
@@ -96,58 +93,68 @@ These technologies were used to create the application.
 
 # Features
 
-### Login 
-This app provide two sign in methods. User can first sign up using an email and a password and then they can proceed with sign in.Other than that user can simply use google sign in method.
+### Maintain Meal Details
 
-How does it work?
+Select the date (if same day , no need to select date), meal type  , the relevant food from the list (if that food is not  in the list user  able to enter that food to the relevant food group) and quantity according to the suggested  unit.
+Users can edit and delete data by selecting  the date.
 
-To sign in, first the app should get authentication credentials from user. For this app credential can be email and password or the oAuth token from google. Then the app pass these credential to Firebase Authentication SDK.After that it will verify those credentials and return respose to the app.Now, the app can access the user's basic profile information.
+<table align="center">
+  <tr>
+    <td align="center">Added Meals</td>
+     <td align="center">Search and add meals</td>
+     <td align="center">Adding Meals</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./images/add_meal.jpeg" width=270 height=520 ></td>
+    <td align="center"><img src="./images/search.jpeg" width=270 height=520></td>
+    <td align="center"><img src="./images/Adding%20new.jpeg" width=270 height=630 ></td>
+  </tr>
+ </table>
 
-<img src="https://user-images.githubusercontent.com/73664068/176868525-1bbaa1f2-7c06-456c-ac37-6b295261776f.jpg" width="300" />
+### Output/Results
+
+User can see the   daily/ Monthly/weekly results according to the food groups whether they are beyond the expected range, within the expected  range or below the expected range by charts.
+
+<table align="center">
+  <tr>
+    <td align="center">Daily report</td>
+     <td align="center">Weekly report</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./images/daily.jpeg" width=270 height=520 ></td>
+    <td align="center"><img src="./images/weekly.jpeg" width=270 height=520></td>
+  </tr>
+ </table>
+
+### Connect  to social  media
+
+Users can share  their  results  to social media directly from the app.
+
+<table align="center">
+  <tr>
+    <td align="center">Share</td>
+     <td align="center">Screenshot</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./images/share.png" width=270 height=520 ></td>
+    <td align="center"><img src="./images/screenshot.png" width=270 height=520></td>
+  </tr>
+ </table>
+
+# Work plan
+
+<p align="center">
+<img src="./images/work_plan.png" width="700" height="430"></p>
 
 
-### User Registration 
-For the registration purposes, the user is required to enter username, date of birth, gender, height and weight.This details use for other features.
-
-Ex:- BMI calculator
-
-<img src="https://user-images.githubusercontent.com/73664068/176868581-04c3f756-8d95-4573-b20d-5f61ceefc771.jpg" width="300" /> 
-
-### BMI calculator 
-* Show the BMI value of the user.
-* It gives additional feedback about BMI using gender and age.
-
-<img src="https://user-images.githubusercontent.com/73664068/176869561-27bf16ee-6508-4773-9ebb-5db62918a562.jpg" width="300" />
-
-
-### Maintain images  of meals
-* Users can select the date ,meal type and upload the images.
-* Users can open the camera  from the app  and upload  the image. These images store in cloud space.
-* The app loads images from the cloud storage and show them in a attractive gallery.
-
-
-<img src="https://user-images.githubusercontent.com/73664068/176869895-720b7bd8-c395-434f-9bea-105afff19a1f.jpg" width="300" /> 
-  
-
-### App Notification
-* If user forgot to add a meal, this will pop up a notification.
-
-<img src="https://user-images.githubusercontent.com/73664068/176871011-41fc0255-499b-4fe1-96ec-f6e31af034df.jpg" width="300" /> 
-
-### Language Translation 
-* App supports English(US), Sinhala & Tamil.
-
-
-
-<video src='https://user-images.githubusercontent.com/73680106/176605718-151da18b-c280-426a-8ec4-26e54d5f44ea.mp4' width=900/>
 
 
 
 
 ## Links
 
-- [Project Repository](https://github.com/cepdnaclk/{{ page.repository-name }}){:target="_blank"}
-- [Project Page](https://cepdnaclk.github.io/{{ page.repository-name}}){:target="_blank"}
+- [Project Repository](https://github.com/cepdnaclk/SnaT-meal-tracking-app){:target="_blank"}
+- [Project Page](https://cepdnaclk.github.io/e18-co227-SnaT-Meal-Tracking-App-Group-A){:target="_blank"}
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
 
