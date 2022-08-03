@@ -1,26 +1,29 @@
+
 {
+    "title": "SnaT Meal Tracking App Group A",
     "team": [
-        {
-            "name": "Abilash R.",
-            "email": "e18013@eng.pdn.ac.lk",
-            "eNumber": "E/18/013"
-        },
-        {
-            "name": "Hariharan R.",
-            "email": "e18128@eng.pdn.ac.lk",
-            "eNumber": "E/18/128"
-        },
-        {
-            "name": "Thulasiyan Y.",
-            "email": "e18366@eng.pdn.ac.lk",
-            "eNumber": "E/18/366"
-        }
+    {
+        "name": "Harihran Raveenthiran",
+        "email": "e18128@eng.pdn.ac.lk",
+        "eNumber": "E/18/128"
+    },
+    {
+        "name": "Ravindran Abilash",
+        "email": "e18013@eng.pdn.ac.lk",
+        "eNumber": "E/18/013"
+    },
+    {
+        "name": "Thulasiyan Yogeswaran",
+        "email": "e18366@eng.pdn.ac.lk",
+        "eNumber": "E/18/366"
+    }
     ],
     "supervisors": [
-        {
-            "name": "Mrs. Nadeesha Adikari",
-            "email": "nadeeshaa@eng.pdn.ac.lk"
-        }
+    {
+        "name": "Mrs. Nadeesha Adikari",
+        "email": "nadeeshaa@eng.pdn.ac.lk"
+    },
+
     ],
-    "tags": ["Web", "Course Page"]
+    "tags": ["Mobile Application", "Food","SnaT","Web", "Course Page"]
 }
