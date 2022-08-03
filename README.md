@@ -1,17 +1,18 @@
 ___
-# This is the project called the "SnaT" - Meal Tracking app, and it is the first food related application in Sri Lanka that is suitable Sri Lankan food style, and its native languages.
+# "SnaT" - Meal Tracking app
 ___
 
-## Please refer the instructions in below URL:
+SnaT(Snap and Track) is a first application available in both iOS, and Android that is built based on Sri Lankan food style so that Users can maintain their meal progress and maintain their health by taking AI assisted food statistics.
 
 ## Team
-*Abilash R. (E/18/013)
-<br>
-*Hariharan R. (E/18/128)
-<br>
-*Thulasiyan Y. (E/18/366)
 
+- Abilash R. (E/18/013)
+- Hariharan R. (E/18/128)
+- Thulasiyan Y. (E/18/366)
 
+## Links
 
-
-https://projects.ce.pdn.ac.lk/docs/how-to-add-a-project
+- [Project Repository](https://github.com/cepdnaclk/SnaT-meal-tracking-app)
+- [Project Page](https://cepdnaclk.github.io/e18-co227-SnaT-Meal-Tracking-App-Group-A/)
+- [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
+- [University of Peradeniya](https://eng.pdn.ac.lk/)
