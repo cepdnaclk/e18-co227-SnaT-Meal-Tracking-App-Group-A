@@ -152,8 +152,8 @@ Users can share  their  results  to social media directly from the app.
 ## Links
 
 
-- [Project Repository](https://github.com/cepdnaclk/{{ page.e18-co227-SnaT-Meal-Tracking-App-Group-A }}){:target="_blank"}
-- [Project Page](https://cepdnaclk.github.io/{{ page.e18-co227-SnaT-Meal-Tracking-App-Group-A}}){:target="_blank"}
+- [Project Repository](https://github.com/cepdnaclk/SnaT-meal-tracking-app)
+- [Project Page](https://cepdnaclk.github.io/e18-co227-SnaT-Meal-Tracking-App-Group-A/)
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
 
