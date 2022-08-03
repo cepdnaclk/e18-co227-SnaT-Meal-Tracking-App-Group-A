@@ -1,5 +1,3 @@
-
-
 ---
 layout: home
 permalink: index.html
@@ -25,7 +23,7 @@ title: SnaT Meal Tracking App
 2. [Technology Stack](#technology-stack)
 3. [Solution Architecture](#solution-architecture)
 4. [Features](#features)
-5. [Work Plan](#Work-plan)
+5. [Work Plan](#work-plan)
 6. [Links](#links)
 
 ---
@@ -51,15 +49,15 @@ title: SnaT Meal Tracking App
 # Technology Stack
 
 These technologies were used to create the application.
-
-  ### Flutter 
+### Flutter 
   
   Why Flutter?
   - Available in many platforms for the same code base
   - Various Widget Libraries
   - Hot Reload
   - Easy to integrate with all Google services
-  ### Firestore and Firebase 
+  
+### Firestore and Firebase 
   
   Why Firestore and Firebase?
   - Has both real time, and No-SQL database
@@ -68,7 +66,7 @@ These technologies were used to create the application.
   - Handling concurrent users
   - Provides all type of authentication services
 
-  ### Git
+### Git
   
   Git is a DevOps tool used for source code management. It is a free and open-source version control system used to handle small to very large projects efficiently. Git is used to tracking changes in the source code, enabling multiple developers to work together on non-linear development. 
 
@@ -153,11 +151,11 @@ Users can share  their  results  to social media directly from the app.
 
 ## Links
 
-- [Project Repository](https://github.com/cepdnaclk/SnaT-meal-tracking-app){:target="_blank"}
-- [Project Page](https://cepdnaclk.github.io/e18-co227-SnaT-Meal-Tracking-App-Group-A){:target="_blank"}
+
+- [Project Repository](https://github.com/cepdnaclk/{{ page.e18-co227-SnaT-Meal-Tracking-App-Group-A }}){:target="_blank"}
+- [Project Page](https://cepdnaclk.github.io/{{ page.e18-co227-SnaT-Meal-Tracking-App-Group-A}}){:target="_blank"}
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
-
 
 [//]: # (Please refer this to learn more about Markdown syntax)
 [//]: # (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
