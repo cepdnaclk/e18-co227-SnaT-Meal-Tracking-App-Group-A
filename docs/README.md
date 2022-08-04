@@ -119,8 +119,8 @@ User can see the   daily/ Monthly/weekly results according to the food groups wh
      <td align="center">Weekly report</td>
   </tr>
   <tr>
-    <td align="center"><img src="./images/daily.jpeg" width=270 height=520 ></td>
-    <td align="center"><img src="./images/weekly.jpeg" width=270 height=520></td>
+    <td align="center"><img src="./images/daily_2.jpeg" width=270 height=520 ></td>
+    <td align="center"><img src="./images/weekly_2.jpeg" width=270 height=520></td>
   </tr>
  </table>
 
